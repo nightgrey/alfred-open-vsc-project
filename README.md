@@ -15,7 +15,7 @@ Note: This can easily be customized to open the project with another IDE/editor.
 
 1. Download the ``open-vsc-project.alfredworkflow`` from Releases.
 2. Drag-and-drop it to your Alfred workflows.
-3. Set up the ``projectFolder`` and ``nodeExecutable`` variables. 
+3. Set up the ``projectFolder`` variable. 
 
 ## Usage
 

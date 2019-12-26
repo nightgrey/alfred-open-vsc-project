@@ -8,7 +8,7 @@
   "main": "src/listDirectories.js",
   "bin": "src/listDirectories.js",
   "scripts": {
-    "build": "rm listDirectories && rm alfred-open-vsc-project.alfredworkflow && nexe . -t macos-x64-v12.0.0 --verbose --output ./listDirectories && zip -r alfred-open-vsc-project.alfredworkflow ./* -x \"./node_modules/*\"",
+    "build": "nexe . -t macos-x64-v12.0.0 --verbose --output ./listDirectories && zip -r alfred-open-vsc-project.alfredworkflow ./* -x \"./node_modules/*\"",
     "debug": "NODE_ENV=debug src/listDirectories.js"
   }
 }
