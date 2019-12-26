@@ -1,4 +1,4 @@
-# Alfred workflow: Open project in Visual Studio Code
+# Alfred workflow: Open Visual Studio Code project
 
 This tiny [Alfred](https://www.alfredapp.com/) workflow ``alfred-open-vsc-project`` allows you to conveniently open a project via Visual Studio Code by defining a "workspace" folder (e.g. the folder where all your projects are). It then shows you all folder names and lets you filter them.
 
