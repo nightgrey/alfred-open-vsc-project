@@ -1,6 +1,6 @@
 {
   "name": "alfred-open-vsc-project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "dependencies": {
     "yargs": "^15.0.2"
