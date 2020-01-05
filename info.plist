@@ -29,7 +29,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Open project</string>
+	<string>Open Visual Studio Code project</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -60,7 +60,7 @@
 				<key>runningsubtext</key>
 				<string>...</string>
 				<key>script</key>
-				<string>./listDirectories --p "${projectFolder}"</string>
+				<string>python ./listDirectories.py -p "${PROJECT_FOLDER}"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -70,7 +70,7 @@
 				<key>title</key>
 				<string>Open project</string>
 				<key>type</key>
-				<integer>5</integer>
+				<integer>0</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -106,7 +106,7 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Variable ${projectFolder} must be the folder to your workspace directory, e.g. where all projects are.
+	<string>PROJECT_FOLDER must be the folder to your workspace directory, e.g. where all projects are.
 
 Note:
 - This script only looks for project folders and opens them via the `code` CLI command that ships with Visual Studio Code.</string>
@@ -115,7 +115,7 @@ Note:
 		<key>4E2A053B-800C-4893-B757-3357534E8936</key>
 		<dict>
 			<key>note</key>
-			<string>List directories via the node.js ./listDirectories script.</string>
+			<string>Call `./listDirectories.py` script</string>
 			<key>xpos</key>
 			<integer>65</integer>
 			<key>ypos</key>
@@ -133,7 +133,7 @@ Note:
 	</dict>
 	<key>variables</key>
 	<dict>
-		<key>projectFolder</key>
+		<key>PROJECT_FOLDER</key>
 		<string>~/Dev</string>
 	</dict>
 	<key>version</key>
